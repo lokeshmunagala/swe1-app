@@ -65,11 +65,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645633510853</updated>
-      <workItem from="1645633513635" duration="1602000" />
+      <workItem from="1645633513635" duration="1928000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

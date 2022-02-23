@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-8m-s_6o+=rqik2g^uh6d!=!f%weth#&n(1q9mqa3suzl+-+(t7
 DEBUG = True
 
 ALLOWED_HOSTS = []
+import django_heroku
+django_heroku.settings(locals())
 
 
 # Application definition
