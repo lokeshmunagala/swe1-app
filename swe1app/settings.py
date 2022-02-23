@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-8m-s_6o+=rqik2g^uh6d!=!f%weth#&n(1q9mqa3suzl+-+(t7
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
 import django_heroku
 django_heroku.settings(locals())
 
@@ -120,8 +121,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-# STATIC_URL = '/static/'
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATIC_URL = '/static/'
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
